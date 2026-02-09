@@ -1,123 +1,270 @@
-<header class="header--fixed">
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
+<!DOCTYPE html>
+<html lang="en-us">
 
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Yixian Shen</a>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
 
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
+  <title>Yixian Shen</title>
 
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Yixian Shen</a>
-      </div>
+  <meta name="author" content="Yixian Shen" />
+  <meta name="description" content="Academic homepage of Yixian Shen." />
+  <meta name="theme-color" content="#1565c0" />
 
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-        <ul class="navbar-nav d-md-inline-flex">
-          <li class="nav-item"><a class="nav-link" href="/#about"><span>Home</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/#experience"><span>Experience</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/#publications"><span>Publications</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="/#talks"><span>Talks</span></a></li>
-        </ul>
-      </div>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"
+    media="print" onload="this.media='all'">
 
-      <!-- Optional icons (search/theme) -->
+  <!-- Core CSS (must load for styling) -->
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css">
+  <link rel="stylesheet" href="/css/wowchemy.1052fab8b7700a3dc49ee23683097d66.css" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css"
+    crossorigin="anonymous" media="print" onload="this.media='all'">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png"
+    href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png"
+    href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <!-- RSS -->
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Yixian Shen" />
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper">
+
+  <!-- Wowchemy init (keeps scrollspy etc.) -->
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  <!-- Search modal -->
+  <aside class="search-modal" id="search">
+    <div class="container">
+      <section class="search-header">
+        <div class="row no-gutters justify-content-between mb-3">
+          <div class="col-6">
+            <h1>Search</h1>
+          </div>
+          <div class="col-6 col-search-close">
+            <a class="js-search" href="#" aria-label="Close">
+              <i class="fas fa-times-circle text-muted" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div id="search-box">
+          <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off"
+            autocorrect="off" spellcheck="false" type="search" class="form-control" aria-label="Search...">
+        </div>
+      </section>
+
+      <section class="section-search-results">
+        <div id="search-hits"></div>
+      </section>
     </div>
-  </nav>
-</header>
+  </aside>
 
+  <!-- Header / Nav -->
+  <div class="page-header">
+    <header class="header--fixed">
+      <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+        <div class="container-xl">
 
-<section id="about" class="home-section wg-about">
-  <div class="container">
-    <div class="row">
-
-      <!-- LEFT: Avatar + Name + Title + Affiliation + Links -->
-      <div class="col-12 col-lg-4">
-        <div id="profile">
-
-          <img class="avatar avatar-circle" width="270" height="270"
-               src="/authors/admin/avatar.png" alt="Yixian Shen">
-
-          <div class="portrait-title">
-            <h2>Yixian Shen</h2>
-            <h3>PhD Student / Researcher</h3>
-            <h3>
-              <a href="https://www.uva.nl/" target="_blank" rel="noopener">
-                <span>University of Amsterdam</span>
-              </a>
-            </h3>
+          <div class="d-none d-lg-inline-flex">
+            <a class="navbar-brand" href="/">Yixian Shen</a>
           </div>
 
-          <ul class="network-icon" aria-hidden="true">
-            <li><a href="mailto:YOUR_EMAIL" aria-label="email"><i class="fas fa-envelope big-icon"></i></a></li>
-            <li><a href="https://scholar.google.com/..." target="_blank" rel="noopener" aria-label="scholar"><i class="ai ai-google-scholar big-icon"></i></a></li>
-            <li><a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener" aria-label="github"><i class="fab fa-github big-icon"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener" aria-label="linkedin"><i class="fab fa-linkedin big-icon"></i></a></li>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content"
+            aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+          </button>
+
+          <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+            <a class="navbar-brand" href="/">Yixian Shen</a>
+          </div>
+
+          <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+            <ul class="navbar-nav d-md-inline-flex">
+              <li class="nav-item">
+                <a class="nav-link" href="/#about"><span>Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#experience"><span>Experience</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#publications"><span>Publications</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#talks"><span>Talks</span></a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+            <li class="nav-item">
+              <a class="nav-link js-search" href="#" aria-label="Search">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown theme-dropdown">
+              <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+                <i class="fas fa-moon" aria-hidden="true"></i>
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item js-set-theme-light"><span>Light</span></a>
+                <a href="#" class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+                <a href="#" class="dropdown-item js-set-theme-auto"><span>Automatic</span></a>
+              </div>
+            </li>
           </ul>
 
         </div>
-      </div>
+      </nav>
+    </header>
+  </div>
 
-      <!-- RIGHT: Bio + Interests + Education -->
-      <div class="col-12 col-lg-8">
-        <h1>Biography</h1>
+  <div class="page-body">
+    <span class="js-widget-page d-none"></span>
 
-        <div class="article-style">
-          <p>
-            I am a PhD student at the Information Retrieval Lab (IRLab), University of Amsterdam (UvA),
-            supervised by Prof. Dr. Maarten de Rijke, Dr. Herke van Hoof, and Dr. Harrie Oosterhuis.
-            My research focuses on reinforcement learning for recommender systems, debiasing, and privacy-preserving recommendation.
-          </p>
-
-          <p>
-            <i class="fas fa-download pr-1 fa-fw"></i>
-            Download my <a href="/uploads/Yixian_Shen_CV.pdf" target="_blank" rel="noopener">CV</a>.
-          </p>
-        </div>
-
+    <!-- ABOUT -->
+    <section id="about" class="home-section wg-about">
+      <div class="home-section-bg"></div>
+      <div class="container">
         <div class="row">
-          <div class="col-md-5">
-            <div class="section-subheading">Interests</div>
-            <ul class="ul-interests mb-0">
-              <li>Recommender Systems1</li>
-              <li>Reinforcement Learning</li>
-              <li>Debiasing & Evaluation</li>
-              <li>Privacy-preserving ML</li>
-            </ul>
+
+          <!-- Left: avatar + title -->
+          <div class="col-12 col-lg-4">
+            <div id="profile">
+              <img class="avatar avatar-circle" width="270" height="270"
+                src="/authors/admin/avatar_hu7ef55d7e45e02792d61836e4b07cd9b6_262549_270x270_fill_q75_lanczos_center.jpg"
+                alt="Yixian Shen">
+
+              <div class="portrait-title">
+                <h2>Yixian Shen</h2>
+                <h3>PhD Student / Researcher</h3>
+                <h3>
+                  <a href="https://www.uva.nl/" target="_blank" rel="noopener">
+                    <span>University of Amsterdam</span>
+                  </a>
+                </h3>
+              </div>
+
+              <ul class="network-icon" aria-hidden="true">
+                <!-- IMPORTANT: replace these links -->
+                <li>
+                  <a href="mailto:YOUR_EMAIL" aria-label="email">
+                    <i class="fas fa-envelope big-icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://scholar.google.com/" target="_blank" rel="noopener" aria-label="google-scholar">
+                    <i class="ai ai-google-scholar big-icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener" aria-label="github">
+                    <i class="fab fa-github big-icon"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener"
+                    aria-label="linkedin">
+                    <i class="fab fa-linkedin big-icon"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div class="col-md-7">
-            <div class="section-subheading">Education</div>
-            <ul class="ul-edu fa-ul mb-0">
-              <li>
-                <i class="fa-li fas fa-graduation-cap"></i>
-                <div class="description">
-                  <p class="course">PhD in Computer Science, 2019–present</p>
-                  <p class="institution">University of Amsterdam</p>
-                </div>
-              </li>
-              <li>
-                <i class="fa-li fas fa-graduation-cap"></i>
-                <div class="description">
-                  <p class="course">MEng in Computer Science, 2016–2019</p>
-                  <p class="institution">Renmin University of China</p>
-                </div>
-              </li>
-              <li>
-                <i class="fa-li fas fa-graduation-cap"></i>
-                <div class="description">
-                  <p class="course">BSc in Computer Science, 2012–2016</p>
-                  <p class="institution">Renmin University of China</p>
-                </div>
-              </li>
-            </ul>
+          <!-- Right: biography + interests + education -->
+          <div class="col-12 col-lg-8">
+            <h1>Biography</h1>
+
+            <div class="article-style">
+              <p>
+                I am a PhD student at the Information Retrieval Lab (IRLab) at the University of Amsterdam (UvA),
+                supervised by Prof. Dr. Maarten de Rijke, Dr. Herke van Hoof, and Dr. Harrie Oosterhuis.
+                My research focuses on reinforcement learning for recommender systems, debiasing recommendations,
+                and privacy-preserving recommendation.
+              </p>
+
+              <p>
+                <i class="fas fa-download pr-1 fa-fw"></i>
+                Download my <a href="/uploads/Yixian_Shen_CV.pdf" target="_blank" rel="noopener">CV</a>.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col-md-5">
+                <div class="section-subheading">Interests</div>
+                <ul class="ul-interests mb-0">
+                  <li>Recommender Systems</li>
+                  <li>Reinforcement Learning</li>
+                  <li>Debiasing &amp; Evaluation</li>
+                  <li>Privacy-preserving ML</li>
+                </ul>
+              </div>
+
+              <div class="col-md-7">
+                <div class="section-subheading">Education</div>
+                <ul class="ul-edu fa-ul mb-0">
+                  <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">PhD in Computer Science, 2019–present</p>
+                      <p class="institution">University of Amsterdam</p>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">MEng in Computer Science, 2016–2019</p>
+                      <p class="institution">Renmin University of China</p>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">BSc in Computer Science, 2012–2016</p>
+                      <p class="institution">Renmin University of China</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
-
       </div>
+    </section>
+
+    <!-- NOTE:
+      Your existing sections like #experience, #talks, #publications can stay as-is in your repo.
+      If you removed them, you can add them back later.
+    -->
+  </div>
+
+  <!-- Footer -->
+  <div class="page-footer">
+    <div class="container">
+      <footer class="site-footer">
+        <p class="powered-by copyright-license-text">
+          © 2026 Yixian Shen. All rights reserved.
+        </p>
+      </footer>
     </div>
   </div>
-</section>
+
+  <!-- JS (must load for navbar + theme + layout) -->
+  <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+  <script id="page-data" type="application/json">{"use_headroom":false}</script>
+  <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+</body>
+
+</html>
