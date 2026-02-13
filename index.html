@@ -13,6 +13,17 @@
   <meta name="description" content="Academic homepage of Yixian Shen." />
   <meta name="theme-color" content="#1565c0" />
 
+  <style>
+    .pub-cat { margin-top: 1.25rem; }
+    .pub-item { margin: 1.25rem 0; }
+    .pub-thumb { width: 100%; border-radius: 10px; }
+    .pub-title { margin-bottom: .25rem; }
+    .pub-meta { margin-bottom: .25rem; }
+    .pub-links a { margin-right: .75rem; }
+    .pub-badge { font-weight: 700; }
+  </style>
+
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" as="style"
@@ -272,6 +283,401 @@
         </div>
       </div>
     </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="home-section wg-pages">
+      <div class="home-section-bg"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Publications</h1>
+            <p class="text-muted">
+              (ICLR, ACL, ICCV, EMNLP, NAACL, AAAI, NeurIPS, etc.
+              <a href="https://scholar.google.com/citations?user=M31pUAcAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
+                Google Scholar
+              </a>)
+            </p>
+          </div>
+
+          <div class="col-12 col-lg-8">
+
+            <!-- Category -->
+            <h3 class="pub-cat">Efficient LLM Training and Fine-tuning</h3>
+
+            <!-- 1 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/MaCP.png" alt="MaCP figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>① MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection.</strong></div>
+                  <div class="pub-meta"><em><strong><u>Yixian Shen</u></strong>, Qi Bi, Jia-Hong Huang, Hongyi Zhu, Andy D. Pimentel, Anuj Pathania.</em></div>
+                  <div class="pub-meta">In <em>The 63rd Annual Meeting of the Association for Computational Linguistics (<strong>ACL 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a class="pub-badge" href="https://2025.aclweb.org/program/awards/" target="_blank" rel="noopener">🏆 Best Theme Paper</a>
+                    <a href="https://aclanthology.org/2025.acl-long.1006.pdf" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/MaCPanon/acl2025-anon" target="_blank" rel="noopener">💻 Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/SSH.png" alt="SSH figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>② SSH: Sparse Spectrum Adaptation via Discrete Hartley Transformation.</strong></div>
+                  <div class="pub-meta"><em><strong><u>Yixian Shen</u></strong>, Qi Bi, Jia-Hong Huang, Hongyi Zhu, Andy D. Pimentel, Anuj Pathania.</em></div>
+                  <div class="pub-meta">In <em>The 2025 Annual Conference of the Nations of the Americas Chapter of the ACL (<strong>NAACL 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://aclanthology.org/2025.naacl-long.522/" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/yixianUvA/SSH" target="_blank" rel="noopener">💻 Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/NeuroAda.png" alt="NeuroAda figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>③ NeuroAda: Activating Each Neuron’s Potential for Parameter-Efficient Fine-Tuning.</strong></div>
+                  <div class="pub-meta"><em>Zhi Zhang<sup>*</sup>, <strong><u>Yixian Shen</u></strong><sup>*</sup>, Congfeng Cao, Ekaterina Shutova</em></div>
+                  <div class="pub-meta">In <em>The 2025 Conference on Empirical Methods in Natural Language Processing (<strong>EMNLP 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://aclanthology.org/2025.emnlp-main.555/" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/FightingFighting/NeuroAda" target="_blank" rel="noopener">💻 Code</a>
+                    <span class="text-muted" style="font-size: 0.9em;"><sup>*</sup> Equal contribution.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/Grad.png" alt="Gradient projection figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>④ Gradient Weight-normalized Low-rank Projection for Efficient LLM Training.</strong></div>
+                  <div class="pub-meta"><em>Jia-Hong Huang<sup>*</sup>, <strong><u>Yixian Shen</u></strong><sup>*</sup>, Hongyi Zhu, Stevan Rudinac, Evangelos Kanoulas.</em></div>
+                  <div class="pub-meta">In <em>The 39th Annual AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/10.1609/aaai.v39i23.34587" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/Jhhuangkay/Gradient-Weight-normalized-Low-rank-Projection-for-Efficient-LLM-Training" target="_blank" rel="noopener">💻 Code</a>
+                    <span class="text-muted" style="font-size: 0.9em;"><sup>*</sup> Equal contribution.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/AdaDCP.png" alt="AdaDCP figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑤ AdaDCP: Learning an Adapter with Discrete Cosine Prior for Clear-to-Adverse Domain Generalization.</strong></div>
+                  <div class="pub-meta"><em>Qi Bi, <strong><u>Yixian Shen</u></strong>, Jingjun Yi, Gui-Song Xia.</em></div>
+                  <div class="pub-meta">In <em>International Conference on Computer Vision (<strong>ICCV 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Bi_AdaDCP_Learning_an_Adapter_with_Discrete_Cosine_Prior_for_Clear-to-Adverse_ICCV_2025_paper.html" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category -->
+            <h3 class="pub-cat">Efficient MLLM Reasoning</h3>
+
+            <!-- 11 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/DARE.png" alt="DARE figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑪ Efficient Multimodal Spatial Reasoning via Dynamic and Asymmetric Routing.</strong></div>
+                  <div class="pub-meta"><em><strong><u>Yixian Shen</u></strong>, Qi Bi, Zihan Wang, Zhiheng Yang, Changshuo Wang, Zhi Zhang, Prayag Tiwari, Andy D. Pimentel, Anuj Pathania.</em></div>
+                  <div class="pub-meta">In <em>The Fourteenth International Conference on Learning Representations (<strong>ICLR 2026</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://openreview.net/forum?id=BQASoLmREU" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 12 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/Reasoning.png" alt="Reasoning Beyond Points figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑫ Reasoning Beyond Points: A Visual Introspective Approach for Few-Shot 3D Segmentation.</strong></div>
+                  <div class="pub-meta"><em>Changshuo Wang, Shuting He, Xiang Fang, Zhijian Hu, Jia-Hong Huang, <strong><u>Yixian Shen</u></strong>, Prayag Tiwari.</em></div>
+                  <div class="pub-meta">In <em>The 39th Annual Conference on Neural Information Processing Systems (<strong>NeurIPS 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://openreview.net/forum?id=BQASoLmREU" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category -->
+            <h3 class="pub-cat">Deep Learning Applications</h3>
+
+            <!-- 6 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/ImageRestore.png" alt="Image restoration figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑥ Degradation-aware Dynamic Schrödinger Bridge for Unpaired Image Restoration.</strong></div>
+                  <div class="pub-meta"><em>Jingjun Yi, Qi Bi, Hao Zheng, Huimin Huang, <strong><u>Yixian Shen</u></strong>, Haolan Zhan, Wei Ji, Yawen Huang, Yuexiang Li, Xian Wu, Yefeng Zheng.</em></div>
+                  <div class="pub-meta">In <em>The 39th Annual Conference on Neural Information Processing Systems (<strong>NeurIPS 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://openreview.net/forum?id=jJweE513Am" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/legcy.png" alt="Legal domain LLM figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑦ Optimizing numerical estimation and operational efficiency in the legal domain through large language models.</strong></div>
+                  <div class="pub-meta"><em>Jia-Hong Huang, Chao-Chun Yang, <strong><u>Yixian Shen</u></strong>, Alessio M Pacces, Evangelos Kanoulas.</em></div>
+                  <div class="pub-meta">In <em>The 33rd ACM International Conference on Information and Knowledge Management (<strong>CIKM 2024</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/10.1145/3627673.3680025" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/Jhhuangkay/Optimizing-Numerical-Estimation-and-Operational-Efficiency-in-the-Legal-Domain" target="_blank" rel="noopener">💻 Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/Inter.png" alt="Interactive image retrieval figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑧ Interactive Image Retrieval Meets Query Rewriting with Large Language and Vision Language Models.</strong></div>
+                  <div class="pub-meta"><em>Hongyi Zhu, Jia-Hong Huang, <strong><u>Yixian Shen</u></strong>, Stevan Rudinac, Evangelos Kanoulas.</em></div>
+                  <div class="pub-meta">In <em>ACM Transactions on Multimedia Computing, Communications and Applications (<strong>TOMM 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/full/10.1145/3744910" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/ImageCon.png" alt="Image2text2image figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑨ Image2text2image: A novel framework for label-free evaluation of image-to-text generation with text-to-image diffusion models.</strong></div>
+                  <div class="pub-meta"><em>Jia-Hong Huang, Hongyi Zhu, <strong><u>Yixian Shen</u></strong>, Stevan Rudinac, Evangelos Kanoulas.</em></div>
+                  <div class="pub-meta">In <em>The 31st International Conference on Multimedia Modeling (<strong>MMM 2024</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/10.1007/978-981-96-2071-5_30" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/SystemGen.png" alt="SurveyGen-I figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑩ SurveyGen-I: Consistent Scientific Survey Generation with Evolving Plans and Memory-Guided Writing.</strong></div>
+                  <div class="pub-meta"><em>Jing Chen, Zhiheng Yang, <strong><u>Yixian Shen</u></strong>, Jie Liu, Adam Belloum, Chrysa Papagainni, Paola Grosso.</em></div>
+                  <div class="pub-meta">In <em>International Joint Conference on Natural Language Processing &amp; Asia-Pacific Chapter of the Association for Computational Linguistics 2025 (<strong>AACL 2025</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://arxiv.org/abs/2508.14317" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/SurveyGens/SurveyGen-I" target="_blank" rel="noopener">💻 Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category -->
+            <h3 class="pub-cat">Efficient Edge DNNs</h3>
+
+            <!-- 13 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/Piqi.png" alt="PiQi figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑬ PiQi: Partially Quantized DNN Inference on HMPSoCs.</strong></div>
+                  <div class="pub-meta"><em>Ehsan Aghapour, <strong><u>Yixian Shen</u></strong>, Dolly Sapra, Andy D. Pimentel, Anuj Pathania.</em></div>
+                  <div class="pub-meta">In <em>2024 ACM/IEEE International Symposium on Low Power Electronics and Design (<strong>ISLPED 2024</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://openreview.net/forum?id=BQASoLmREU" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/Ehsan-aghapour/PiQi" target="_blank" rel="noopener">💻 Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 14 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/Easter.png" alt="EASTER figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑭ EASTER: Learning to Split Transformers at the Edge Robustly.</strong></div>
+                  <div class="pub-meta"><em>Xiaotian Guo, Quan Jiang, <strong><u>Yixian Shen</u></strong>, Andy D. Pimentel, Todor Stefanov.</em></div>
+                  <div class="pub-meta">In <em>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 2024 (<strong>TCAD 2024</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://ieeexplore.ieee.org/document/10745835" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 15 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/DAC_partial.png" alt="Low latency transformer inference figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑮ Low Latency Transformer Inference on HMPSoCs.</strong></div>
+                  <div class="pub-meta"><em>Hang Xu, <strong><u>Yixian Shen</u></strong>, Theo Gatea, Andy Pimentel, Anuj Pathania.</em></div>
+                  <div class="pub-meta">In <em>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 2025 (<strong>TCAD 2025</strong>), Under Review</em>.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category -->
+            <h3 class="pub-cat">Thermal-aware Scheduling for 3D-stacked Chips</h3>
+
+            <!-- 16 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/LFM.png" alt="LFM 3D S-NUCA figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑯ Taming the Heat: Thermal-Safe and Efficient LFM Inference on 3D S-NUCA Many-Cores.</strong></div>
+                  <div class="pub-meta"><em><strong><u>Yixian Shen</u></strong>, Jan Deen, George Floros, Andy D. Pimentel, Anuj Pathania.</em></div>
+                  <div class="pub-meta">In <em>2026 Design Automation Conference (<strong>DAC 2026</strong>), Under Review</em>.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 17 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/3qu.png" alt="Unified core-memory regulation figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑰ Thermal Management for 3D-Stacked Systems via Unified Core-Memory Power Regulation.</strong></div>
+                  <div class="pub-meta"><em><strong><u>Yixian Shen</u></strong>, Leo Schreuders, Andy D. Pimentel, Anuj Pathania.</em></div>
+                  <div class="pub-meta">In <em>ACM Transactions on Embedded Computing Systems and ESWEEK (<strong>TECS &amp; ESWEEK 2023</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/full/10.1145/3608040" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/marg-tools/CoMeT" target="_blank" rel="noopener">💻 Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 18 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/Hotpotato.png" alt="Hotpotato figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑱ Thermal Management for S-NUCA Many-Cores via Synchronous Thread Rotations.</strong></div>
+                  <div class="pub-meta"><em><strong><u>Yixian Shen</u></strong>, Sobhan Niknam, Andy D. Pimentel, Anuj Pathania.</em></div>
+                  <div class="pub-meta">In <em>2023 Design, Automation &amp; Test in Europe Conference (<strong>DATE 2023</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10136895" target="_blank" rel="noopener">📄 Paper</a>
+                    <a href="https://github.com/yixianuva/hotpotato" target="_blank" rel="noopener">💻 Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category -->
+            <h3 class="pub-cat">Multi-Core Cache Optimization</h3>
+
+            <!-- 19 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/TCPS.png" alt="TCPS figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑲ TCPS: A Task and Cache-Aware Partitioned Scheduler for Hard Real-Time Multi-core Systems.</strong></div>
+                  <div class="pub-meta"><em><strong><u>Yixian Shen</u></strong>, Jun Xiao, Andy D. Pimentel.</em></div>
+                  <div class="pub-meta">In <em>The 23rd ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems (<strong>LCTES 2022</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3519941.3535067?casa_token=PrHPkaGf760AAAAA:k7ZWUKtlTS1s7ZBfT2Plj-gGA5qK9kTlaj2NUEMX_2a-a4-a5XSuQ_K23Gxx94txTcT7Zer77OGyDQ" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 20 -->
+            <div class="pub-item">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <img class="pub-thumb" src="/figure/Cache.png" alt="Cache interference figure">
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="pub-title"><strong>⑳ Cache interference-aware task partitioning for non-preemptive real-time multi-core systems.</strong></div>
+                  <div class="pub-meta"><em>Jun Xiao, <strong><u>Yixian Shen</u></strong>, Andy D. Pimentel.</em></div>
+                  <div class="pub-meta">In <em>ACM Transactions on Embedded Computing Systems (<strong>TECS 2022</strong>)</em>.</div>
+                  <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/full/10.1145/3487581" target="_blank" rel="noopener">📄 Paper</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Optional: more -->
+            <div class="mt-4">
+              <a href="https://scholar.google.com/citations?user=M31pUAcAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
+                More on Google Scholar →
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- NOTE:
       Your existing sections like #experience, #talks, #publications can stay as-is in your repo.
